@@ -1,0 +1,12 @@
+http://localhost:8082/customer/     - PUT
+{"id":3 , "name":"PhuongPhuong"}
+
+
+
+
+http://localhost:8082/customer/		- POST
+
+{"name":"PhuongPhuong"}
+
+
+http://localhost:8082/customer/2 	GET

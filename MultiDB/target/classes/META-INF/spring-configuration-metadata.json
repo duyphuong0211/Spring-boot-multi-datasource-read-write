@@ -1,0 +1,397 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource-read",
+      "type": "com.example.MultiDB.configurations.DataSourceConfigRead",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.hikari",
+      "type": "com.example.MultiDB.configurations.HikariReadProperties",
+      "sourceType": "com.example.MultiDB.configurations.HikariReadProperties"
+    },
+    {
+      "name": "spring.datasource-write",
+      "type": "com.example.MultiDB.configurations.DataSourceConfigWrite",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.hikari",
+      "type": "com.example.MultiDB.configurations.HikariWriteProperties",
+      "sourceType": "com.example.MultiDB.configurations.HikariWriteProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource-read.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.HikariReadProperties"
+    },
+    {
+      "name": "spring.datasource-read.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.HikariReadProperties"
+    },
+    {
+      "name": "spring.datasource-read.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.HikariReadProperties"
+    },
+    {
+      "name": "spring.datasource-read.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.HikariReadProperties"
+    },
+    {
+      "name": "spring.datasource-read.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.keepalive-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-read.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigRead"
+    },
+    {
+      "name": "spring.datasource-write.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.HikariWriteProperties"
+    },
+    {
+      "name": "spring.datasource-write.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.HikariWriteProperties"
+    },
+    {
+      "name": "spring.datasource-write.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.HikariWriteProperties"
+    },
+    {
+      "name": "spring.datasource-write.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.HikariWriteProperties"
+    },
+    {
+      "name": "spring.datasource-write.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.keepalive-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    },
+    {
+      "name": "spring.datasource-write.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.MultiDB.configurations.DataSourceConfigWrite"
+    }
+  ],
+  "hints": []
+}
